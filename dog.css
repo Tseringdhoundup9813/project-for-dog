@@ -1,0 +1,142 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+header{
+	width:100%;
+	
+
+}
+ header ul{
+ 	width:100%;
+ 	height:15vh;
+ 	display:flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color:white;
+ }
+
+header ul li{
+	list-style: none;
+	padding:0px 2em;
+}
+header ul li a{
+	text-decoration: none;
+	font-size:24px;
+	color:grey;
+
+}
+/*container1*/
+
+.container{
+	width:100%;
+	min-height:90vh;
+	max-height:100vh;
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('image/dog2.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	overflow:hidden;
+
+}
+.container .intro-text{
+	width:50%;
+	transform:translateX(20%);
+	
+	
+	
+}.intro-text h1{
+	font-size:3em;
+	color:white;
+}
+.intro-text p{
+	font-size:23px;
+	color:white;
+	margin-bottom:20px;
+}
+
+
+#learn-more{
+	border:2px solid white;
+	font-size:22px;
+	padding:10px 15px;
+	color:white;
+	text-decoration: none;
+	transition:all 2s;
+
+}
+#learn-more:hover{
+	background-color:white;
+	color:grey;
+}
+/*////////article for dog */
+
+.article-for-dog{
+	width:100%;
+	height:130vh;
+	overflow: hidden;
+	
+}
+
+.article-for-dog-title{
+	display:flex;
+	height:20vh;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	font-size:1.5em;
+	color:rgb(50,50,50);
+	background-color:tomato;
+	font-family:sans-serif;
+
+}
+
+
+/*animation for artilce title*/
+#move-title{
+	transform:translateX(-1000px);
+}
+.article-for-dog-image img{
+	width:100%;
+
+
+}
+.article-for-dog-image{
+	border:10px solid white;
+	box-shadow:0px 0px 10px grey;
+	opacity:0;
+
+}
+.article-for-dog-article{
+	transform:translateX(650px);
+}
+.article-for-dog-article h1{
+	font-size:3em;
+	font-family:sans-serif;
+	color:rgb(40,40,40);
+}
+.article-for-dog-article p{
+	font-size:23px;
+}
+.article-for-dog-main{
+	display:grid;
+	grid-template-columns:repeat(2,40%);
+	justify-content: space-around;
+	align-items:center;
+	height:50vh;
+	padding-bottom:20px;
+	padding:40px;
+
+}
+
+/*..footer*/
+
+footer{
+	width:100%;
+	height:40vh;
+	background-color:grey;
+}
